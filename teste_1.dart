@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  stdout.write("Digite um numero inteiro: ");
+  stdout.write("Digite um numero inteiro e positivo: ");
   var number = int.parse(stdin.readLineSync()!);
   number = soma(number);
   print(number);
